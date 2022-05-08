@@ -1,4 +1,4 @@
-package br.com.alura.microservice.loja.dto;
+package br.com.alura.microservice.fornecedor.loja.dto;
 
 import lombok.Getter;
 import lombok.Setter;

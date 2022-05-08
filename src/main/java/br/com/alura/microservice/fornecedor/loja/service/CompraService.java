@@ -1,7 +1,7 @@
-package br.com.alura.microservice.loja.service;
+package br.com.alura.microservice.fornecedor.loja.service;
 
-import br.com.alura.microservice.loja.dto.CompraDTO;
-import br.com.alura.microservice.loja.dto.InfoFornecedorDTO;
+import br.com.alura.microservice.fornecedor.loja.dto.CompraDTO;
+import br.com.alura.microservice.fornecedor.loja.dto.InfoFornecedorDTO;
 import org.springframework.http.HttpMethod;
 import org.springframework.web.client.RestTemplate;
 
