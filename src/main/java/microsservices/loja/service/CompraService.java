@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class CompraService {
     public void realizeCompra(CompraDTO compra) {
-        var url = "http://localhost:8081/info/" + compra.getEndereco().getEstado();
+        var url = "http://fornecedor/info/" + compra.getEndereco().getEstado();
         RestTemplate client = new RestTemplate();
         ResponseEntity<InfoFornecedorDTO> exchange = client.exchange(url,
                 HttpMethod.GET, null, InfoFornecedorDTO.class);
